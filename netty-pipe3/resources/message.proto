@@ -1,0 +1,8 @@
+option optimize_for = SPEED;
+option java_package = "pipe.message";
+
+
+message UserMessage {
+   required int32 msg_id = 1;
+   optional string message = 2;
+}
